@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FinNova Bank</string>
+
+    <!-- Common -->
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+    <string name="saved_successfully">Your changes were saved.</string>
+    <string name="something_went_wrong">Something went wrong. Please try again.</string>
+    <string name="optional">(optional)</string>
+    <string name="current_value">Current: %1$s</string>
+
+    <!-- Login -->
+    <string name="login_welcome">Welcome to FinNova</string>
+    <string name="login_subtitle">Sign in to manage your accounts</string>
+    <string name="user_id">User ID</string>
+    <string name="password">Password</string>
+    <string name="sign_in">Sign On</string>
+    <string name="demo_hint">Demo: demouser / Finnova@2026</string>
+
+    <!-- Bottom navigation -->
+    <string name="tab_accounts">Accounts</string>
+    <string name="tab_benefits">Benefits</string>
+    <string name="tab_offers">Offers</string>
+    <string name="tab_more">More</string>
+
+    <!-- Accounts -->
+    <string name="greeting">Hello, %1$s</string>
+    <string name="account_ending">Account ending in %1$s</string>
+    <string name="available_balance">Available balance</string>
+    <string name="current_balance">Current balance</string>
+
+    <!-- Benefits / Offers -->
+    <string name="benefits_title">Your card benefits</string>
+    <string name="benefits_body">• 2% cash back on every purchase\n• No foreign transaction fees\n• Purchase protection up to $10,000\n• Free FICO® score updates every month</string>
+    <string name="offers_title">Offers for you</string>
+    <string name="offers_body">• 5% back at grocery stores this month\n• $10 off your next streaming subscription\n• 3% back on gas through Dec 31</string>
+
+    <!-- More -->
+    <string name="more_profile_settings">Profile &amp; Settings</string>
+    <string name="more_help">Help &amp; Support</string>
+    <string name="more_sign_out">Sign Off</string>
+    <string name="sign_out_confirm">Are you sure you want to sign off?</string>
+
+    <!-- Profile & Settings -->
+    <string name="profile_settings_title">Profile &amp; Settings</string>
+    <string name="section_profile">Profile</string>
+    <string name="section_settings">Settings</string>
+    <string name="row_preferred_name">Preferred first name</string>
+    <string name="row_address">Address</string>
+    <string name="row_email">Email address</string>
+    <string name="row_mobile_phone">Mobile phone</string>
+    <string name="row_income">Income information</string>
+    <string name="row_credentials">Update User ID and Password</string>
+    <string name="row_login_options">Login options</string>
+    <string name="row_account_alerts">Account alerts</string>
+    <string name="row_link_accounts">Link FinNova accounts</string>
+    <string name="row_snapshot">FinNova mobile Snapshot</string>
+    <string name="row_connected_apps">Connected Apps</string>
+
+    <!-- Edit screens -->
+    <string name="preferred_name_hint">Preferred first name</string>
+    <string name="preferred_name_help">This is how we\'ll greet you in the app and in emails. Your legal name won\'t change.</string>
+    <string name="email_hint">New email address</string>
+    <string name="confirm_email_hint">Confirm new email address</string>
+    <string name="phone_hint">Mobile phone number</string>
+    <string name="phone_help">We\'ll text security codes to this number. Message and data rates may apply.</string>
+    <string name="address_line1_hint">Street address</string>
+    <string name="address_line2_hint">Apt, suite, unit (optional)</string>
+    <string name="city_hint">City</string>
+    <string name="state_hint">State</string>
+    <string name="zip_hint">ZIP code</string>
+    <string name="address_help">Use your residential address. P.O. boxes can\'t be used.</string>
+    <string name="employment_hint">Employment status</string>
+    <string name="annual_income_hint">Total annual income ($)</string>
+    <string name="housing_hint">Monthly rent / mortgage ($)</string>
+    <string name="income_help">Include all income you have a reasonable expectation to access.</string>
+    <string name="current_user_id">Current User ID: %1$s</string>
+    <string name="current_password_hint">Current password</string>
+    <string name="new_user_id_hint">New User ID</string>
+    <string name="new_password_hint">New password</string>
+    <string name="confirm_password_hint">Confirm new password</string>
+    <string name="rule_length">8–32 characters</string>
+    <string name="rule_upper">One uppercase letter</string>
+    <string name="rule_lower">One lowercase letter</string>
+    <string name="rule_digit">One number</string>
+    <string name="rule_special">One special character (!@#$…)</string>
+
+    <!-- Login options / alerts -->
+    <string name="biometric_login">Sign on with fingerprint or face</string>
+    <string name="remember_user_id">Remember my User ID</string>
+    <string name="alert_low_balance">Low balance (under $100)</string>
+    <string name="alert_large_purchase">Purchases over $500</string>
+    <string name="alert_payment_due">Payment due reminders</string>
+    <string name="alert_deposit">Deposits received</string>
+    <string name="coming_soon_body">This screen is a practice task for you.\n\nBuild it using the same MVP pattern as the Profile screens: Contract → Presenter → Activity → XML layout → unit tests. See docs/FinNova_Bank_Guide.pdf.</string>
+
+    <!-- ===================== Validation messages ===================== -->
+    <string name="err_name_required">Enter your preferred first name.</string>
+    <string name="err_name_too_long">Name must be 30 characters or fewer.</string>
+    <string name="err_name_invalid">Use letters only. Single spaces, hyphens (-) and apostrophes (\') are allowed between letters.</string>
+    <string name="err_name_same">This is already your preferred first name.</string>
+
+    <string name="err_email_required">Enter an email address.</string>
+    <string name="err_email_too_long">Email address is too long.</string>
+    <string name="err_email_invalid">Enter a valid email address, like name@example.com.</string>
+    <string name="err_email_confirm_required">Re-enter your email address.</string>
+    <string name="err_email_mismatch">Email addresses don\'t match.</string>
+    <string name="err_email_same">This is already your email address.</string>
+
+    <string name="err_phone_required">Enter a mobile phone number.</string>
+    <string name="err_phone_length">Enter a 10-digit US phone number.</string>
+    <string name="err_phone_area_code">Area code can\'t start with 0 or 1.</string>
+    <string name="err_phone_exchange">Phone number can\'t start with 0 or 1 after the area code.</string>
+    <string name="err_phone_same">This is already your mobile number.</string>
+
+    <string name="err_line1_required">Enter your street address.</string>
+    <string name="err_line1_short">Street address looks too short.</string>
+    <string name="err_address_long">Must be 60 characters or fewer.</string>
+    <string name="err_address_chars">Only letters, numbers, spaces and . , \' # / - are allowed.</string>
+    <string name="err_po_box">P.O. boxes can\'t be used. Enter a street address.</string>
+    <string name="err_city_required">Enter a city.</string>
+    <string name="err_city_invalid">Enter a valid city name.</string>
+    <string name="err_state_required">Select a state.</string>
+    <string name="err_state_invalid">Select a valid US state.</string>
+    <string name="err_zip_required">Enter a ZIP code.</string>
+    <string name="err_zip_invalid">Enter a 5-digit ZIP code (or ZIP+4, like 75038-1234).</string>
+
+    <string name="err_employment_required">Select your employment status.</string>
+    <string name="err_income_required">Enter your total annual income.</string>
+    <string name="err_income_invalid">Enter whole dollars using numbers only.</string>
+    <string name="err_income_range">Annual income must be between $0 and $9,999,999.</string>
+    <string name="err_housing_required">Enter your monthly housing payment. Enter 0 if none.</string>
+    <string name="err_housing_invalid">Enter whole dollars using numbers only.</string>
+    <string name="err_housing_range">Monthly payment must be between $0 and $99,999.</string>
+    <string name="err_housing_exceeds">Yearly housing payments can\'t be more than your annual income.</string>
+
+    <string name="err_user_id_required">Enter a User ID.</string>
+    <string name="err_user_id_length">User ID must be 6–30 characters.</string>
+    <string name="err_user_id_invalid">Start with a letter. Use letters, numbers, periods (.) or underscores (_).</string>
+    <string name="err_current_password_required">Enter your current password.</string>
+    <string name="err_password_required">Enter a new password.</string>
+    <string name="err_password_length">Password must be 8–32 characters.</string>
+    <string name="err_password_space">Password can\'t contain spaces.</string>
+    <string name="err_password_upper">Add at least one uppercase letter.</string>
+    <string name="err_password_lower">Add at least one lowercase letter.</string>
+    <string name="err_password_digit">Add at least one number.</string>
+    <string name="err_password_special">Add at least one special character.</string>
+    <string name="err_password_user_id">Password can\'t contain your User ID.</string>
+    <string name="err_password_same">New password must be different from your current one.</string>
+    <string name="err_password_confirm_required">Re-enter your new password.</string>
+    <string name="err_password_mismatch">Passwords don\'t match.</string>
+</resources>
